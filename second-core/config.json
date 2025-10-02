@@ -1,6 +1,6 @@
 {
   "name": "HA Second Core",
-  "version": "2025.9.1",
+  "version": "2025.10.0",
   "slug": "second_core",
   "description": "Run a second home assistante core on port 8124 by default.",
   "arch": ["armhf", "armv7", "amd64", "aarch64"],
@@ -21,5 +21,5 @@
   "schema": {
     "BASE_CONFIG_PATH": "str"
   },
-  "image": "smeagolworms4/ha_second_core"
+  "image": "crackyn/ha_second_core"
 }
